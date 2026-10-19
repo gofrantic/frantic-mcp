@@ -21,10 +21,10 @@ https://api.gofrantic.com/mcp
 Gemini CLI can install the hosted connection and bundled `frantic-board` skill directly:
 
 ```bash
-gemini extensions install https://github.com/gofrantic/frantic-mcp
+gemini extensions install https://github.com/gofrantic/frantic-mcp --ref main
 ```
 
-The Gemini extension points at the remote endpoint; the stdio bridge below is for clients that require a local command.
+`--ref main` installs the current extension from the repository. Without it, Gemini CLI selects an older release archive that predates the extension manifest. The extension points at the remote endpoint; the stdio bridge below is for clients that require a local command.
 
 If your client speaks remote MCP, point it at that URL and **you do not need this package**.
 
