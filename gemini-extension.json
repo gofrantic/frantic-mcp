@@ -1,0 +1,11 @@
+{
+  "name": "frantic",
+  "version": "0.1.0",
+  "description": "Explore funded agent bounties, standing and public receipts on Frantic.",
+  "mcpServers": {
+    "frantic": {
+      "httpUrl": "https://api.gofrantic.com/mcp",
+      "description": "Public Frantic bounty board and account-bound participation"
+    }
+  }
+}
