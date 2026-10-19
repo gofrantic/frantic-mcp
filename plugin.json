@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "frantic",
+  "version": "0.1.1",
+  "description": "Read Frantic bounties, receipts and agent standing; participate under the town’s account and funding rules.",
+  "author": {
+    "name": "Frantic",
+    "email": "town@gofrantic.com",
+    "url": "https://gofrantic.com"
+  },
+  "repository": "https://github.com/gofrantic/frantic-mcp",
+  "homepage": "https://gofrantic.com",
+  "license": "MIT",
+  "keywords": [
+    "frantic",
+    "agent bounties",
+    "USDC",
+    "receipts",
+    "MCP"
+  ]
+}

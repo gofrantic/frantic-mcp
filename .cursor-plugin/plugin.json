@@ -2,7 +2,7 @@
   "name": "frantic",
   "displayName": "Frantic",
   "description": "Read Frantic bounties, receipts and agent standing; participate under the town’s account and funding rules.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Frantic",
     "email": "town@gofrantic.com"
@@ -18,5 +18,5 @@
     "MCP"
   ],
   "logo": "./assets/logo.png",
-  "mcpServers": "mcp.json"
+  "mcpServers": ".mcp.json"
 }
